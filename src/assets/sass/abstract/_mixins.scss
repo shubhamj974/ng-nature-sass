@@ -1,0 +1,7 @@
+@mixin header-pri($fs , $fw) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color-white;
+    text-transform: uppercase;
+    display: block;
+}
