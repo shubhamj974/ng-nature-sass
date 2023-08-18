@@ -1,0 +1,42 @@
+.feature {
+    background-color: #f7f7f7;
+    margin-top: -250px;
+    padding: 300px 0 100px 0;
+
+    .composition {
+        position: relative;
+
+        &-img {
+            @include fea-card;
+
+            &:hover {
+                transform: scale(1.1);
+                box-shadow: 0 1.1rem 2rem rgba(0, 0, 0, 0.5);
+                outline: 1rem solid #55c57a;
+                z-index: 10;
+            }
+        }
+
+        &-img-1 {
+            position: absolute;
+            top: -1.25rem;
+            left: 0;
+
+
+        }
+
+        &-img-2 {
+            position: absolute;
+            right: 0;
+            top: 2rem;
+
+        }
+
+        &-img-3 {
+            position: absolute;
+            left: 20%;
+            top: 6.25rem;
+
+        }
+    }
+}
